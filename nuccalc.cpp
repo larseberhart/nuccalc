@@ -870,7 +870,7 @@ public:
         std::cout << "Wind Speed: " << std::setw(3) << windSpeed << " km/h | ";
         std::cout << "Max Distance: " << std::setw(5) << effects.fallout.maxDownwindDistance << " km\n";
         std::cout << "Width: " << effects.fallout.maxWidth << " km | ";
-        std::cout << "Danger Zone: " << effects.fallout.dangerousZoneArea << " km²\n";
+        std::cout << "Fallout Zone: " << effects.fallout.dangerousZoneArea << " km²\n";
         std::cout << std::string(78, '-') << "\n";
 
         // Casualties
