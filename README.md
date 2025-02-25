@@ -134,8 +134,6 @@ Choose from a list of European cities. Each entry shows:
 - City name
 - Country
 - Population in millions
-- Area in square kilometers
-- Population density
 
 Enter the number corresponding to your target city.
 
