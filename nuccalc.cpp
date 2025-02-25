@@ -648,38 +648,38 @@ private:
             // Calculate effects for this ring
             if (avgRadius <= sqrt(effects.blast.severeArea / M_PI))
             {
-                casualties.deaths += ringArea * density * 0.9;// 90% mortality
+                casualties.deaths += ringArea * density * 0.9; // 90% mortality
             }
             else if (avgRadius <= sqrt(effects.blast.moderateArea / M_PI))
             {
-                casualties.severeInjuries += ringArea * density * 0.5;// 50% severe injuries
+                casualties.severeInjuries += ringArea * density * 0.5; // 50% severe injuries
             }
             else if (avgRadius <= sqrt(effects.blast.lightArea / M_PI))
             {
-                casualties.lightInjuries += ringArea * density * 0.3;// 30% light injuries
+                casualties.lightInjuries += ringArea * density * 0.3; // 30% light injuries
             }
 
             // Add thermal effects
             if (avgRadius <= sqrt(effects.thermal.severeArea / M_PI))
             {
-                casualties.deaths += ringArea * density * 0.7;// 70% mortality
+                casualties.deaths += ringArea * density * 0.7; // 70% mortality
             }
             // ...similar calculations for moderate and light thermal effects...
 
             // Add radiation effects
             if (avgRadius <= sqrt(effects.radiation.severeArea / M_PI))
             {
-                casualties.severeInjuries += ringArea * density * 0.8;// 80% severe injuries
+                casualties.severeInjuries += ringArea * density * 0.8; // 80% severe injuries
             }
             // ...similar calculations for moderate radiation effects...
         }
 
         // Estimate long-term deaths based on radiation exposure - guesswork
-        double totalExposed = casualties.severeInjuries + casualties.lightInjuries;// Total exposed population
-        casualties.longTermDeaths1Year = totalExposed * 0.1;  // 10% mortality in 1 year
-        casualties.longTermDeaths5Year = totalExposed * 0.2;  // 20% mortality in 5 years
-        casualties.longTermDeaths10Year = totalExposed * 0.3; // 30% mortality in 10 years
-        casualties.longTermDeaths20Year = totalExposed * 0.4; // 40% mortality in 20 years
+        double totalExposed = casualties.severeInjuries + casualties.lightInjuries; // Total exposed population
+        casualties.longTermDeaths1Year = totalExposed * 0.1;                        // 10% mortality in 1 year
+        casualties.longTermDeaths5Year = totalExposed * 0.2;                        // 20% mortality in 5 years
+        casualties.longTermDeaths10Year = totalExposed * 0.3;                       // 30% mortality in 10 years
+        casualties.longTermDeaths20Year = totalExposed * 0.4;                       // 40% mortality in 20 years
 
         return casualties;
     }
