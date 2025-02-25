@@ -5,7 +5,7 @@
 This program calculates the effects of nuclear weapons detonations, including thermal radiation, blast effects, initial radiation, and fallout patterns. It uses physical models and data to provide accurate estimations of weapons effects in urban environments.
 
 ## What sucks and to-dos:
-- Wind speed 0
+- Wind speed 0: need to figure out how to increase fallout
 - Wonky guesswork for long-term effects (adjusted values from Mr. Google)
 - Wind direction not considered. Significant high-yield/high-fallout weapons. 
 
