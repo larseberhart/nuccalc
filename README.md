@@ -227,28 +227,28 @@ The program will show detailed calculations for:
 ```
 Calculated Effects:
 ==============================================================================
-Weapon Data | Yield: 0.015  MT | Type: Air burst | Height: 73.9864m
+Weapon Data | Yield: 0.15   MT | Type: Air burst | Height: 159.399m
 ------------------------------------------------------------------------------
-Thermal        | Severe: 223 m      (0.16 km²) | Moderate: 335 m      (0.35 km²) | Light: 447 m      (0.63 km²)
+Thermal        | Severe: 561 m      (0.99 km²) | Moderate: 842 m      (2.23 km²) | Light: 1.1 km     (3.97 km²)
 ------------------------------------------------------------------------------
-Blast          | Severe: 489 m      (0.76 km²) | Moderate: 734 m      (1.72 km²) | Light: 1.1 km     (3.87 km²)
+Blast          | Severe: 1.0 km     (3.55 km²) | Moderate: 1.5 km     (7.98 km²) | Light: 2.3 km     (17.96 km²)
 ------------------------------------------------------------------------------
-Radiation      | Severe: 357 m      (0.41 km²) | Moderate: 536 m      (0.92 km²) | Light: 715 m      (1.63 km²)
+Radiation      | Severe: 548 m      (0.98 km²) | Moderate: 823 m      (2.20 km²) | Light: 1.0 km     (3.91 km²)
 ------------------------------------------------------------------------------
-Fallout Data | Wind Speed: 0.00 km/h | Max Distance: 0.02  km
-Width: 0.02 km | Danger Zone: 0.00 km²
+Fallout Data | Wind Speed: 3.00 km/h | Max Distance: 74.61 km
+Width: 2.80 km | Fallout Zone: 0.64 km²
 ------------------------------------------------------------------------------
 
-Estimated Casualties in Amsterdam:
+Estimated Casualties in Paris:
 =====================================
-Fatalities: 3953
-Severe Injuries: 3366
-Light Injuries: 3044
-Total Casualties: 10362
-Long-Term Deaths (1 Year): 641
-Long-Term Deaths (5 Years): 1282
-Long-Term Deaths (10 Years): 1923
-Long-Term Deaths (20 Years): 2564
+Fatalities: 76068
+Severe Injuries: 50509
+Light Injuries: 46205
+Total Casualties: 172783
+Long-Term Deaths (1 Year): 9671
+Long-Term Deaths (5 Years): 19343
+Long-Term Deaths (10 Years): 29014
+Long-Term Deaths (20 Years): 38686
 ==============================================================================
 ```
 ---
